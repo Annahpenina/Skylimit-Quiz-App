@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skylimit Quiz App</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+        <div class="navigation">
+            <nav>
+                <ul>
+                    <li></li><a href="index.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="#uploads">Uploads</a></li>
+                    <li><a href="dashboard.html">History</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="signup.html">SignUp</a></li>            
+                </ul>
+                </nav>
+        </div>
+        <div class="logo">SkyLimit
+            <P class="quiz">Quizzing Beyond Limits</p>
+        </div>
+      
+        </header>
+        <main>
+
+        <section id="start">
+                <h4>Ready to Take Your Learning to New Heights</h4>
+                <p>Join SkyLimit today and transform the way you study with our AI-powerd learning tools.</p>
+                <button  onclick="location.href='#uploads'">Get started Now</button>
+        </section>
+        
+        <section id="how">
+            <h2>How SkyLimit Works</h2>
+            <ol id="how-it-works">
+                <li>Upload your study materials. Upload your PDF, PPT, or Word format documents. We'll convert them for you if needed.</li>
+                <li>Generate Learning Materials. Our AI analyzes your documents and creates custom quiz questions and flashcards based on the content.</li>
+                <li>Study and Test Your Knowledge. Take timed quizes, review flashcards, and track your progress to improve your understanding.</li>
+            </ol>
+        </section>
+
+            <section class="uploads">
+                <h2>Upload Study Material</h2>
+                <form id="upload-form" action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="file-upload">Choose file (.pdf, .docx, .pptx):</label>
+                    <input type="file" name="file-upload" required />
+                    <button type="submit">Upload & Convert</button>
+                  </form>
+                <p><em>Note: Word (.docx) and PowerPoint (.pptx) files will be automatically converted to PDF upon upload.</em></p>
+            </section>
+           
+
+            <section id="upload-history">
+                <h2>Upload History</h2>
+                <ul id="history-list">
+                    <li>Loading history...</li>
+                </ul>
+            </section>
+
+            <section id="quiz-section">
+                    <h2>Take Quiz</h2>
+              
+                    <div id="timer-controls">
+                      <label for="timer">Set Timer (minutes):</label>
+                      <input type="number" id="timer" min="1" max="120" />
+                      <button id="start-quiz">Start Quiz</button>
+                    </div>
+                    <div id="quiz-area">
+                        <div id="timer-display">Time Left: <span id="time-left"></span></div>
+                        <form id="quiz-form">
+                            <div id="quiz-title">Quiz Title</div>
+                            <div id="quiz-description">Quiz Description</div>
+                            <div id="quiz-instructions">Instructions: Answer all questions.</div>
+        
+                          <div id="questions-container"></div>
+                          <button type="submit">Submit Quiz</button>
+                        </form>
+                    </div>
+                    <div>
+                    </div>
+
+              
+        </main>
+        <script src="script.js"></script>
+    </body>
+
+
+</html>

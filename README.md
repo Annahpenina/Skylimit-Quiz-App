@@ -289,3 +289,47 @@ Quiz Gen	natural, compromise OR OpenAI
 Backend	Express (Node.js)
 Hosting	Render, Railway, Vercel, Netlify (Free)
 Storage	localStorage (browser) or Firebase (optional)
+
+
+
+🚀 Your Planned Quiz App (Enhanced Features)
+
+Feature	Benefit
+✅ Upload PDF & auto-generate quizzes	Saves users time, easy learning
+✅ Convert Word & PPT to PDF	All-in-one platform, no external tools needed
+✅ Flashcards from uploaded content	Reinforces learning, bite-sized memory retention
+✅ Set timer & track scores	Self-assessment, test practice
+✅ Zero-install, browser-based	Accessible and user-friendly
+✅ Free trial or no-cost tier	Low barrier for entry
+🔍 Comparison with Competitors
+
+Feature / App	Quizgecko	Quizlet	Kahoot!	Google Forms	Your App
+AI quiz from PDF	✅	❌	❌	❌	✅
+Upload Word/PPT	❌	❌	❌	❌	✅
+Built-in Word/PPT → PDF tool	❌	❌	❌	❌	✅
+Flashcards from uploaded text	❌	✅	❌	❌	✅
+Custom quiz timer	❌	❌	✅	✅	✅
+All-in-one learning workflow	❌	❌	❌	❌	✅
+Free / no login version	Limited	Some	Free	Free	✅
+🎯 Why This Makes Your App Unique
+All-in-One: Most apps require users to use 2–3 tools (e.g. convert Word → PDF, then upload to Quizgecko, then use another flashcard app). You're simplifying the workflow.
+
+Power for Educators & Students: Teachers can upload lesson plans or slides, auto-generate quizzes and flashcards, and instantly test students.
+
+PDF, Word, and PPT Support: This gives you a major edge. No popular quiz app right now handles all three in one smooth experience.
+
+Flashcards + Quiz in One: Quizlet offers flashcards, Quizgecko offers quizzes. You’ll offer both — from the same uploaded content.
+
+🔧 Tech Stack Suggestion for New Features
+
+Feature	Tool Suggestion
+Word to PDF	mammoth, docx-pdf (Node.js)
+PPT to PDF	officegen or convert client-side using browser APIs
+Flashcard Extraction	Use sentence splitting + keyword selection (compromise or GPT API)
+UI	Flashcard-style cards using flip animations (CSS/JS)
+
+
+**example with loveable.dev**
+input: create a skylimit quiz app that allow users to upload pdf which will generate quiz questions , flash cards to help the user study, the app allows some files to be converted into pdf for the app to generate quiz questions. the user is able set a timer or choose a time to answer the quiz, save scores, save uploaded pdfs for future purposes, save user history. use html, tailwind css and javascript for the front end, color scheme #2A2E2A, #A1F044, #7F6CFF, #E1DBFF and #FFFFFF
+
+Preview: https://lovable.dev/projects/78d1ad52-bebb-48cc-b73b-34b0d609b891

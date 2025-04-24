@@ -1,0 +1,117 @@
+body {
+    background-color: #F2FDFF;
+
+}
+.navigation {
+    background: linear-gradient(to bottom, #0E1836 70%, transparent 100%);
+    color: #F2FDFF; 
+    background-color:  #0E1836 ;
+    height:80px;
+    text-align: center;
+    padding: 20px
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.navigation ul {
+    gap: 80px;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation ul li a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #B8AAFF;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #F2FDFF;
+}
+
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+     mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    line-height: 1;
+    text-align: center;
+    padding: 30px;
+}
+.quiz {
+    font-style: italic;
+    color: #95B8A4;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.uploads {
+    font-size: 30px;
+    color: #2A2E2A;
+    padding: 30px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    background-color: #7BBBFE;
+    border-radius: 10px;
+    width: 90%;
+    height: 400px
+
+    
+    align-items: center; 
+    justify-content: center;
+    
+
+}
+h2 {
+    text-align: center;
+}
+
+#how {
+    font-size: 30px;
+    color: #FC3A3A;
+    padding: 80px;
+    margin: 50px;
+    font-size: 20px;
+    margin-top: 0;
+}
+#how-it-works {
+    padding-left: 20px;
+    color: #333;
+}
+#how-it-works li {
+    margin-bottom: 10px;
+    color: #A9ADB6;
+    font-size: 20px;
+
+}
+#start {
+    font-size: 10px;
+    color: #FC3A3A;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0;
+    background-color: #B3ACD5;
+    border-radius: 10px;
+}
+#quiz-section {
+
+}
+
+project-folder/
+├── uploads/         ← Uploaded files (input)
+├── converted/       ← Converted PDF files (output)
+├── server.js        ← Main backend code
+├── package.json

@@ -1,0 +1,24 @@
+{
+  "name": "skylimit-quiz-app",
+  "version": "1.0.0",
+  "description": "**About**\r The Skylimit Quiz App, lets the user to upload a pdf of their choice and the app will scan the pdf file and generate quizes to help the user to study, practice what they have learn, the app will be a ble to scan text, tables, charts, numbers as well, and be able to make sumarries of the scanned pdf files at the end of the quiz. The app will save user credentials and pdf files uploaded and quize questions and the user can access the content of the app any where, with a posibility to have a downloadeable app.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annahpenina/Skylimit-Quiz-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Annahpenina/Skylimit-Quiz-App/issues"
+  },
+  "homepage": "https://github.com/Annahpenina/Skylimit-Quiz-App#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2"
+  }
+}
